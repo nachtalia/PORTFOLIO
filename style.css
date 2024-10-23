@@ -117,7 +117,12 @@ span {
 .home-content p {
     font-size: 1.6rem;
 }
-
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: start; 
+    gap: 10px; 
+}
 .social-media a {
     display: inline-flex;
     justify-content: center;
@@ -132,6 +137,10 @@ span {
     margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
 }
+
+    .social-media a i {
+        color: #000;
+    }
 
 .social-media a:hover {
     background: var(--main-color);
@@ -343,8 +352,19 @@ span {
 .footer-text {
     font-size: 1.6rem;
 }
+.heading{
+    margin-bottom: 20px;
+}
 
-/* breakpoints */
+a{
+    color: #000;
+}
+
+.foot{
+    color: #000;
+}
+
+
 
 @media (max-width: 1200px){
     html {
